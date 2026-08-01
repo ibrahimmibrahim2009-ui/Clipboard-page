@@ -3,4 +3,4 @@
 ## Responsivity 
 ### The project is appropriate for large screens only. Unfortunately, i hadn't have the enought time to add media quarries, so i will enhance it later. You may find some mistakes in that point, but really i will fix it later.
 ## Demo URL
-### https://ibrahimmibrahim2009-ui.github.io/Clipboard_Landing_Page/
+###  https://ibrahimmibrahim2009-ui.github.io/Clipboard-page/
