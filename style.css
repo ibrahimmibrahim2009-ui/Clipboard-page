@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  max-height: 200vh;
+  font-famiBai Jamjureely: "";
+  overflow-x: hidden;
+}
+
+p {
+  color: hsl(201, 11%, 66%)
+}
+
+h1 , h2 , h3 , h4 {
+  color: hsl(210, 10%, 33%)
+}
+
+.header_image{
+  width: 100vw;
+}
+.container .download_1 {
+  text-align: center;
+  position: relative;
+  top: -250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bai Jamjuree";
+}
+.container .download_1 img {
+  margin-bottom: 50px;
+  max-width: 150px;
+  height: auto
+}
+.container .download_1 h1 {
+  margin-bottom: 15px;
+  color: hsl(210, 10%, 33%)
+}
+.container .download_1 p {
+  max-width: 500px;
+  line-height: 20px;
+}
+.container .download_1 .buttons {
+  margin-top: 30px;
+}
+.container .download_1 .buttons button {
+  padding: 10px 25px;
+  border-radius: 75px;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  color: white;
+  border: none
+}
+.container .download_1 .buttons .button_1 {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 10px 20px rgba(32, 178, 170, 0.3);
+}
+.container .download_1 .buttons .button_2 {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 10px 20px rgba(92, 107, 192, 0.3);
+}
+
+
+.container .keep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bai Jamjuree";
+  margin-top: -120px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.container .keep h2 {
+  margin-bottom: 15px
+}
+.container .keep p {
+  width: 620px
+}
+
+
+
+.container .computer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: -400px;
+  overflow: hidden;
+}
+.container .computer .content {
+  padding-left: 100px;
+  padding-top: 100px
+}
+.container .computer .content div {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  font-family: "Bai Jamjuree";
+  margin-bottom: 50px
+}
+.container .computer .content h3 {
+  padding-bottom: 10px
+}
+.container .computer .content p {
+  width: 340px;
+  line-height: 30px
+}
+
+
+
+.access {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.access h2 {
+  padding-bottom: 15px;
+  max-width: 600px;
+  text-align: center;
+  line-height: 20px;
+}
+.access p {
+  width: 600px
+}
+
+.devices {
+  margin-bottom: 50px;
+  width: 70vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.supercharge h2 , .supercharge p {
+  display: flex;
+  justify-content: center;
+}
+.supercharge h2 {
+  padding-bottom: 15px
+}
+.supercharge p {
+  margin-bottom: 60px
+}
+
+
+.tools {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 150px
+}
+.tools div h4 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.tools div p {
+  max-width: 305px;
+}
+.tools div:first-child {
+  top: -8px;
+  position: relative;
+}
+
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 120px
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.download h2 {
+  padding-bottom: 25px;
+}
+.download p {
+  max-width: 600px;
+  padding-bottom: 50px
+}
+.download button {
+    padding: 10px 25px;
+  border-radius: 75px;
+  font-family: "Bai Jamjuree";
+  font-weight: 500;
+  color: white;
+  border: none;
+  margin-bottom: 100px
+}
+.download button:first-of-type {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 10px 20px rgba(32, 178, 170, 0.3);
+}
+.download button:last-of-type {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 10px 20px rgba(92, 107, 192, 0.3);
+}
+
+
+
+footer {
+  background-color: hsl(201, 11%, 90%);
+  display: flex;
+  padding: 20px 180px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* footer div {
+  background-color: blanchedalmond;
+} */
+footer div:first-child {
+  margin-right: 100px;
+  transform: scale(.5);
+}
+
+
+footer div:last-child {
+  margin-right: -100px
+}
+
+footer div:nth-child(2) { 
+  display: flex;
+  align-items: center;
+  margin-right: 130px;
+}
+
+footer div:nth-child(2) p {
+  padding-right: 60px;
+  color: hsl(210, 10%, 33%)
+}
+
+footer div:last-child {
+  display: flex;
+  transform: scale(.2);
+}
+footer div:last-child img {
+  padding-left: 80px;
+  transition: all .5s;
+}
+
+
+footer div:nth-child(2) p:hover {
+  color:hsl(233, 100%, 69%);
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+footer div:last-child img:hover {
+  transform: scale(.9);
+}
